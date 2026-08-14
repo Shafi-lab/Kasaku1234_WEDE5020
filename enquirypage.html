@@ -1,0 +1,50 @@
+4. Enquiry Page (enquiry.html)html<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Enquiry | KasakuCleats</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">KasakuCleats</div>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="enquiry.html" class="active">Enquiry</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="form-section">
+        <h2>Stock & Customization Enquiry</h2>
+        <form action="#" method="POST">
+            <label for="name">Full Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email Address:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="cleat-model">Preferred Cleat Model:</label>
+            <select id="cleat-model" name="cleat-model">
+                <option value="vapor-fg">Vapor Elite FG</option>
+                <option value="predator-ag">Predator Pro AG</option>
+                <option value="future-indoor">Future Match IT</option>
+            </select>
+
+            <label for="message">Size & Fit Requirements:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+
+            <button type="submit" class="submit-btn">Submit Enquiry</button>
+        </form>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 KasakuCleats.</p>
+    </footer>
+</body>
+</html
